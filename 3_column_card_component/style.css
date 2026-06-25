@@ -1,0 +1,115 @@
+/* ── Reset & Base ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ── Cards Wrapper ── */
+.cards-wrapper {
+  display: flex;
+  gap: 0;
+  overflow: hidden;
+  max-width: 780px;
+  width: 90%;
+}
+
+/* ── Individual Card ── */
+.card {
+  flex: 1;
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ── Card Colors ── */
+.card-orange { background-color: #F5A623;}
+.card-teal   { background-color: #2A8C7E;}
+.card-dark   { background-color: #1A4F4A; }
+
+/* ── Icon ── */
+.card-icon {
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Title ── */
+.card-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ── Description Text ── */
+.card-text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.7;
+  flex-grow: 1;
+}
+
+/* ── Button ── */
+.card-btn-orange {
+  margin-top: 24px;
+  padding: 12px 28px;
+  background-color:#ffffff;
+  color: #F5A623;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.2s;
+}
+
+.card-btn-teal {
+  margin-top: 24px;
+  padding: 12px 28px;
+  background-color:#ffffff;
+  color: #2A8C7E;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.2s;
+}
+
+.card-btn-dark {
+  margin-top: 24px;
+  padding: 12px 28px;
+  background-color:#ffffff;
+  color: #1A4F4A;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.2s;
+}
+
+.img{
+  width: 60px;
+  padding-left: 20px;
+}
